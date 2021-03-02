@@ -21,15 +21,16 @@
           </p>
           <p class="locations">
             <span class="underline"><strong>Store Hours</strong></span><br/>
-            Open 7 days a week
-            <br>
-            Mon - Thr: 10am - 10pm
-            <br>
-            Fri: 10am - 11pm
-            <br>
-            Sat: 12pm - 11pm
             <br>
             Sun: 12pm - 10pm
+            <br>
+            Mon: CLOSED
+            <br>
+            Tues - Thr: 11am - 10pm
+            <br>
+            Fri: 11am - 10pm
+            <br>
+            Sat: 12pm - 10pm
           </p>
           <p class="locations">
             <strong>Phone:</strong> 412-331-3700
