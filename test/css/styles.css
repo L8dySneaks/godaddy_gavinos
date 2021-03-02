@@ -1,0 +1,131 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+body {
+  /*font-family: 'PT Sans', sans-serif;*/
+  padding-top: 145px;
+  font-size: 13px;
+  color: red;
+}
+
+p {
+  line-height: 35px;
+}
+
+/***   Navigation Styles ***/
+.navbar-right {
+  margin-right: 0;
+  margin-top: 60px;
+}
+.navbar-brand {
+  font-family: 'PT Serif', serif;
+  height: 70px;
+  padding: 0 15px;
+}
+
+.navbar-brand h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+}
+/*.navbar-brand-centered {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 160px;
+  text-align: center;
+}
+
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}*/
+.navbar-inverse {
+  background-color: #000;
+  border-radius: 0px;
+  padding: 20px 0;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.navbar-inverse .navbar-nav>li>a.anchor {
+  display: block;
+  position: relative;
+  top: -550px;
+  visibility: hidden;
+  color:red;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  border-top: 2px dotted #ddd;
+}
+
+/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px){
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px){
+    .navbar-brand h1 {
+      font-family: 'PT Serif', serif;
+      font-size: 26px;
+    }
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px){
+    body {
+      font-size: 14px;
+      padding-top: 185px;
+    }
+    .navbar-brand {
+      height: 100px;
+      padding: 0 15px;
+    }
+
+    .navbar-brand h1 {
+      font-family: 'PT Serif', serif;
+      font-size: 36px;
+    }
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px){
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px){
+
+	}
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/pizza.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
